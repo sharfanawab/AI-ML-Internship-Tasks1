@@ -1,91 +1,73 @@
-# Task 1: Exploring and Visualizing Iris Dataset
+#  Task 2: Stock Price Prediction
 
-## Overview
+##  Objective
 
-This project was completed as part of the DevelopersHub AI/ML Engineering Internship.
-
-The goal of this task is to explore, analyze, and visualize the Iris dataset using Python.
+The objective of this project is to predict future stock closing prices using historical stock market data and Machine Learning.
 
 ---
 
-## Dataset
+##  Dataset
 
-**Iris Dataset**
-
-The dataset contains measurements of iris flowers from three different species:
-
-* Setosa
-* Versicolor
-* Virginica
+* Stock: Apple Inc. (AAPL)
+* Data Source: Yahoo Finance (yfinance)
+* Historical stock data used for training and testing
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
-* Seaborn
+* Scikit-Learn
+* yfinance
+* Jupyter Notebook
 
 ---
 
-## Exploratory Data Analysis
+##  Machine Learning Model
 
-The following analyses were performed:
-
-* Dataset loading
-* Dataset inspection
-* Shape analysis
-* Column analysis
-* Statistical summary
-* Data visualization
+Linear Regression
 
 ---
 
-## Visualizations
+##  Evaluation Metrics
 
-### Scatter Plot
-
-Used to analyze relationships between features and flower species.
-
-### Histogram
-
-Used to understand feature distributions.
-
-### Box Plot
-
-Used to identify outliers and data spread.
+* Mean Absolute Error (MAE)
+* R² Score
 
 ---
 
-## Results
+##  Output Visualization
 
-* Dataset contains 150 records.
-* Three flower species are present.
-* Feature relationships can clearly distinguish species.
-* Visualizations help understand patterns and distributions.
+The model compares actual stock prices with predicted stock prices using a line graph.
 
 ---
 
-## Project Structure
+##  Project Structure
 
-Task1_Iris_EDA/
+Task2_Stock_Prediction/
 
-├── task1.py
+├── task2.py
 
-├── Task1.ipynb
+├── Task2.ipynb
 
-├── scatter_plot.png
-
-├── histogram.png
-
-├── boxplot.png
+├── stock_prediction.png
 
 └── README.md
 
 ---
 
-## Author
+## Results
 
-DevelopersHub AI/ML Engineering Internship Submission
+* Historical stock data was successfully analyzed.
+* Linear Regression model was trained and tested.
+* Predictions closely followed actual stock prices.
+* Model performance was evaluated using MAE and R² Score.
+
+---
+
+## Internship Project
+
+DevelopersHub AI/ML Engineering Internship Task 2 Submission
