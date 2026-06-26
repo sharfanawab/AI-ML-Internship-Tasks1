@@ -1,43 +1,59 @@
-# Task 3 - Heart Disease Prediction
+# AI & ML Internship Tasks
 
-## Objective
-Build a Machine Learning model to predict heart disease using patient medical data.
-
-## Dataset
-Heart Disease Dataset
-
-## Libraries Used
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-
-## Workflow
-1. Load Dataset
-2. Data Exploration
-3. Feature Selection
-4. Train-Test Split
-5. Logistic Regression Model
-6. Model Evaluation
-7. Confusion Matrix Visualization
-
-## Results
-
-Dataset Shape:
-(1025, 14)
-
-Accuracy Score:
-79.51%
-
-Confusion Matrix:
-[[73 29]
- [13 90]]
-
-## Output Files
-- task3.py
-- heart.csv
-- confusion_matrix.png
-
+This repository contains all completed tasks for the AI & Machine Learning Internship.
+## Task 1 - Iris Dataset Exploratory Data Analysis (EDA)
+### Objective
+Explore and visualize the Iris dataset using Python data analysis libraries.
+### Tools & Libraries
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+### Outputs
+* Scatter Plot
+* Histogram
+* Box Plot
+---
+## Task 2 - Stock Price Prediction
+### Objective
+Build a simple stock price prediction model using historical stock market data.
+### Tools & Libraries
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-Learn
+* yFinance
+### Outputs
+* Stock Data Analysis
+* Linear Regression Model
+* Prediction Graph
+---
+## Task 3 - Heart Disease Prediction
+### Objective
+Develop a machine learning model to predict heart disease based on patient health data.
+### Tools & Libraries
+* Python
+* Pandas
+* NumPy
+* Seaborn
+* Matplotlib
+* Scikit-Learn
+### Results
+* Dataset Shape: (1025, 14)
+* Accuracy Score: 79.51%
+* Confusion Matrix Visualization
+---
+## Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Jupyter Notebook
+* Git & GitHub
+---
 ## Author
-AI & ML Internship Project
+**Sharfa Nawab**
+AI & ML Internship Project Repository
