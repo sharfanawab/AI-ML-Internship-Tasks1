@@ -1,73 +1,43 @@
-#  Task 2: Stock Price Prediction
+# Task 3 - Heart Disease Prediction
 
-##  Objective
+## Objective
+Build a Machine Learning model to predict heart disease using patient medical data.
 
-The objective of this project is to predict future stock closing prices using historical stock market data and Machine Learning.
+## Dataset
+Heart Disease Dataset
 
----
+## Libraries Used
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
 
-##  Dataset
-
-* Stock: Apple Inc. (AAPL)
-* Data Source: Yahoo Finance (yfinance)
-* Historical stock data used for training and testing
-
----
-
-## 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-Learn
-* yfinance
-* Jupyter Notebook
-
----
-
-##  Machine Learning Model
-
-Linear Regression
-
----
-
-##  Evaluation Metrics
-
-* Mean Absolute Error (MAE)
-* R² Score
-
----
-
-##  Output Visualization
-
-The model compares actual stock prices with predicted stock prices using a line graph.
-
----
-
-##  Project Structure
-
-Task2_Stock_Prediction/
-
-├── task2.py
-
-├── Task2.ipynb
-
-├── stock_prediction.png
-
-└── README.md
-
----
+## Workflow
+1. Load Dataset
+2. Data Exploration
+3. Feature Selection
+4. Train-Test Split
+5. Logistic Regression Model
+6. Model Evaluation
+7. Confusion Matrix Visualization
 
 ## Results
 
-* Historical stock data was successfully analyzed.
-* Linear Regression model was trained and tested.
-* Predictions closely followed actual stock prices.
-* Model performance was evaluated using MAE and R² Score.
+Dataset Shape:
+(1025, 14)
 
----
+Accuracy Score:
+79.51%
 
-## Internship Project
+Confusion Matrix:
+[[73 29]
+ [13 90]]
 
-DevelopersHub AI/ML Engineering Internship Task 2 Submission
+## Output Files
+- task3.py
+- heart.csv
+- confusion_matrix.png
+
+## Author
+AI & ML Internship Project
